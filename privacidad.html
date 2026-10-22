@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de privacidad · Despeje</title>
+<style>
+:root{--bg:#EEF1F6;--surface:#fff;--ink:#141B2B;--muted:#5E6A80;--accent:#3A47C4;--line:#D5DBE6}
+@media (prefers-color-scheme:dark){:root{--bg:#0F1320;--surface:#171C2C;--ink:#E7EAF4;--muted:#9099B2;--accent:#8C96FF;--line:#2A3149}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Segoe UI",system-ui,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:48px 20px}
+h1{font-size:30px;line-height:1.2;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 6px}
+p,li{color:var(--muted)}
+ul{padding-left:20px}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:15px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--ink)}
+td{color:var(--muted)}
+.scroll{overflow-x:auto}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p><a href="./">← Despeje</a></p>
+<h1>Política de privacidad</h1>
+<p>Vigente desde el 21 de octubre de 2026.</p>
+
+<p>Despeje es un programa para Windows que se ejecuta en el computador de quien lo usa. Esta política explica qué datos usa, para qué y cómo puedes quitarle el acceso.</p>
+
+<h2>Qué datos lee Despeje</h2>
+<p>Cuando conectas una cuenta, Despeje lee solo lo necesario para mostrarte qué ocupa espacio:</p>
+<ul>
+<li><b>Correo:</b> remitente, asunto, fecha, tamaño, si lo abriste y las cabeceras de baja de suscripción (List-Unsubscribe). No lee el cuerpo de los mensajes ni sus adjuntos.</li>
+<li><b>Google Drive y OneDrive:</b> nombre, tipo, tamaño, carpeta, fechas y huella de cada archivo, para clasificarlos y encontrar duplicados. No abre el contenido de los archivos.</li>
+<li><b>Tu dirección de correo</b>, para mostrar qué cuenta está conectada.</li>
+</ul>
+
+<h2>Para qué los usa</h2>
+<div class="scroll"><table>
+<tr><th>Permiso</th><th>Uso</th></tr>
+<tr><td>Gmail: leer y organizar correo (gmail.modify)</td><td>Agrupar remitentes, mover correos a la papelera o a carpetas que tú eliges y enviar el correo de baja de una lista cuando lo pides.</td></tr>
+<tr><td>Gmail: configuración básica</td><td>Crear filtros para que los correos nuevos de un remitente vayan a la carpeta que elegiste.</td></tr>
+<tr><td>Google Drive</td><td>Listar tus archivos, ver su tamaño y enviar a la papelera los que tú confirmes.</td></tr>
+<tr><td>Microsoft: correo, reglas y OneDrive</td><td>Lo mismo en Outlook, Hotmail y OneDrive.</td></tr>
+</table></div>
+<p>Despeje nunca borra nada sin tu confirmación. Todo va primero a la papelera del servicio y se puede deshacer desde el programa.</p>
+
+<h2>Dónde se guardan</h2>
+<p>Todo se queda en tu computador, en la carpeta <code>%AppData%\Despeje</code>. Los accesos a tus cuentas se guardan cifrados con tu usuario de Windows. Despeje no tiene servidores propios: se comunica solo con Google y Microsoft.</p>
+
+<h2>Con quién se comparten</h2>
+<p>Con nadie. Despeje no vende, no transfiere y no comparte tus datos, no los usa para publicidad y no los usa para entrenar modelos de inteligencia artificial.</p>
+<p>El uso y la transferencia a cualquier otra aplicación de la información recibida de las API de Google cumplirán la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos del usuario de los servicios de las API de Google</a>, incluidos los requisitos de uso limitado.</p>
+
+<h2>Cómo quitar el acceso y borrar tus datos</h2>
+<ul>
+<li>En Despeje, ve a <b>Cuentas</b> y toca <b>Quitar</b>. Se borran los datos de esa cuenta guardados en tu PC.</li>
+<li>Para revocar el permiso en tu cuenta: Google en <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>; Microsoft en <a href="https://account.live.com/consent/Manage">account.live.com/consent/Manage</a>.</li>
+<li>Para borrar todo, elimina la carpeta <code>%AppData%\Despeje</code>.</li>
+</ul>
+
+<h2>Contacto</h2>
+<p>Preguntas sobre esta política: <b>lopezemanuelt27@gmail.com</b></p>
+</div>
+</body>
+</html>
